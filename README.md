@@ -1,229 +1,115 @@
 # 🛍️ Retail & E-commerce — Multi-Vendor Marketplace App
 
-A mobile-first **multi-vendor marketplace application** designed to provide customers with a seamless and trustworthy shopping experience while enabling independent D2C vendors to manage their products and inventory efficiently.
+A mobile-first **multi-vendor marketplace application** designed to provide customers with a seamless and trustworthy shopping experience while helping independent D2C vendors manage their products and inventory efficiently.
 
-This project focuses on **UX research, information architecture, user flows, and low-fidelity wireframing** as part of Week 1 of the design process.
+This project is currently in the **UX Research, Information Architecture, and Wireframing phase**.
 
 ---
 
 ## 👥 Team
 
-| Member     | Role         | Contribution                         |
-| ---------- | ------------ | ------------------------------------ |
-| **Dolly**  | UX Research  | Shopper research & Shopper Persona   |
-| **Vishwa** | UX Research  | Vendor research & Vendor Persona     |
-| **Shri**   | UX / IA      | Information Architecture & User Flow |
-| **Pankaj** | UI/UX Design | Low-Fidelity Wireframes              |
+| Member     | Primary Responsibility               |
+| ---------- | ------------------------------------ |
+| **Dolly**  | Shopper UX Research & Persona        |
+| **Vishwa** | Vendor UX Research & Persona         |
+| **Shri**   | Information Architecture & User Flow |
+| **Pankaj** | Low-Fidelity Wireframes              |
+
+> All team members will participate in design reviews, discussions, testing, and iterations.
 
 ---
 
 ## 🎯 Project Objective
 
-The rise of Direct-to-Consumer (D2C) brands has created a need for better multi-vendor digital platforms.
+The rise of Direct-to-Consumer (D2C) brands requires digital platforms that can support multiple independent sellers while maintaining a simple and trustworthy shopping experience.
 
-Traditional e-commerce templates can become difficult to navigate when customers browse products from multiple independent sellers.
+Traditional e-commerce templates can become difficult to navigate when customers browse products from many different sellers.
 
-Our goal is to design a **unified, trustworthy, and easy-to-use marketplace experience** where:
+Our goal is to design a **mobile-first multi-vendor marketplace** that provides:
 
 ### For Shoppers
 
-* Discover products easily
-* Search and filter products efficiently
-* Understand product and seller information
-* Compare products confidently
-* Add products to cart with minimal friction
+* Easy product discovery
+* Simple search and navigation
+* Useful filtering and sorting
+* Clear product information
+* Transparent seller information
+* Smooth cart experience
 
 ### For Vendors
 
-* Manage products efficiently
-* Manage inventory
-* Present products professionally
-* Reach a wider customer base
-* Provide a trustworthy shopping experience
+* Simple product management
+* Inventory management
+* Clear product presentation
+* Easy marketplace management
+* Better customer reach
 
 ---
 
-# 📱 Design Approach
+# 📱 Platform
 
-The application follows a **mobile-first design approach** based on common iOS and Android design principles.
+The application will follow a **mobile-first approach** with design considerations for:
 
-The primary consumer journey is:
+* iOS
+* Android
+* Touch-friendly interactions
+* Clear navigation
+* Accessible and consistent UI
+
+---
+
+# 🧭 Core Consumer Flow
+
+The primary shopper journey that we will design is:
 
 ```text
 Home
   ↓
 Category / Search
   ↓
-Product Detail Page (PDP)
-  ↓
-Add to Cart
-  ↓
-Cart
-```
-
----
-
-# 🔎 Week 1 — UX Research, Architecture & Wireframing
-
-## 1. UX Research
-
-### 👤 Shopper Persona
-
-**Created by:** Dolly
-
-The Shopper Persona focuses on understanding:
-
-* User goals
-* Shopping behavior
-* Needs
-* Pain points
-* Frustrations
-* Expectations from a multi-vendor marketplace
-
-### 🏪 Vendor Persona
-
-**Created by:** Vishwa
-
-The Vendor Persona focuses on understanding:
-
-* Business goals
-* Product management needs
-* Inventory challenges
-* Customer-related challenges
-* Pain points
-* Expectations from the marketplace
-
----
-
-# 🗂️ 2. Information Architecture
-
-**Created by:** Shri
-
-The Information Architecture defines the overall navigation and content hierarchy of the application.
-
-```text
-Marketplace App
-│
-├── Home
-│   ├── Categories
-│   ├── Featured Products
-│   ├── Recommended Products
-│   └── Brands
-│
-├── Search
-│   ├── Search Products
-│   ├── Filters
-│   └── Sort
-│
-├── Product Details
-│   ├── Product Images
-│   ├── Product Information
-│   ├── Seller Information
-│   ├── Reviews
-│   └── Add to Cart
-│
-├── Cart
-│   ├── Products
-│   ├── Quantity
-│   ├── Price
-│   └── Checkout
-│
-└── Profile
-    ├── Orders
-    ├── Wishlist
-    └── Settings
-```
-
----
-
-# 🔄 3. Core User Flow
-
-**Created by:** Shri
-
-The core consumer flow is designed around a simple shopping journey:
-
-```text
-Home
-  ↓
-Select Category
-  ↓
-Browse / Search Products
-  ↓
-Apply Filters
-  ↓
-Select Product
-  ↓
 Product Detail Page
   ↓
-Select Variant
-  ↓
-Add to Cart
-  ↓
 Cart
 ```
 
-The flow aims to reduce unnecessary steps and make product discovery and cart addition straightforward.
+This flow will be explored and refined during the UX process.
 
 ---
 
-# 🖼️ 4. Low-Fidelity Wireframes
+# 📋 Week 1 Scope
 
-**Created by:** Pankaj
+### UX Research
 
-The following core screens were designed as low-fidelity wireframes:
+* [ ] Shopper Persona
+* [ ] Vendor Persona
+* [ ] User needs
+* [ ] Pain points
+* [ ] Goals
+* [ ] Initial research findings
 
-### 1. Home Page
+### Information Architecture
 
-* Search
-* Categories
-* Featured products
-* Recommended products
-* Navigation
+* [ ] Navigation hierarchy
+* [ ] Content structure
+* [ ] Marketplace categories
+* [ ] Core user flow
 
-### 2. Category / Search Page
+### Wireframing
 
-* Product listing
-* Search
-* Filters
-* Sorting
-* Product cards
+* [ ] Home Page
+* [ ] Category / Search Page
+* [ ] Product Detail Page
+* [ ] Cart Page
 
-### 3. Product Detail Page (PDP)
+### Documentation
 
-* Product images
-* Product name
-* Price
-* Seller information
-* Reviews
-* Product options
-* Add to Cart
-
-### 4. Cart Page
-
-* Selected products
-* Quantity controls
-* Price summary
-* Remove product
-* Checkout CTA
+* [ ] UX Markdown documentation
+* [ ] Figma file
+* [ ] Figma version: `[Week 1] UX & Wireframes`
 
 ---
 
-# 🎨 Figma
-
-The complete UX and wireframing work is maintained in Figma.
-
-**Figma File:**
-[Add Figma Link Here]
-
-### Week 1 Version
-
-**Figma Version Name:**
-
-`[Week 1] UX & Wireframes`
-
----
-
-# 📁 Project Structure
+# 🗂️ Planned Project Structure
 
 ```text
 retail-multivendor-marketplace-ux/
@@ -238,63 +124,84 @@ retail-multivendor-marketplace-ux/
 │   └── wireframes.md
 │
 └── assets/
-    ├── shopper-persona.png
-    ├── vendor-persona.png
-    ├── information-architecture.png
-    ├── user-flow.png
-    └── wireframes.png
+    ├── research/
+    ├── personas/
+    ├── ia/
+    ├── user-flow/
+    └── wireframes/
 ```
 
 ---
 
-# 📌 Deliverables — Week 1
+# 🎨 Design Tool
 
-* [x] Shopper Persona
-* [x] Vendor Persona
-* [x] Information Architecture
-* [x] Core User Flow
-* [x] Home Page Wireframe
-* [x] Category/Search Wireframe
-* [x] Product Detail Page Wireframe
-* [x] Cart Wireframe
-* [x] UX Markdown Documentation
-* [x] Figma Version — `[Week 1] UX & Wireframes`
+**Figma** will be used for:
+
+* UX research documentation
+* Information Architecture
+* User flows
+* Wireframes
+* Prototyping
+* UI design in later phases
+
+**Figma File:**
+*To be added*
 
 ---
 
-# 🛠️ Tools Used
+# 🛠️ Tools
 
-* **Figma** — UX Design & Wireframing
-* **GitHub** — Documentation & Version Control
-* **Markdown** — UX Documentation
+* Figma
+* GitHub
+* Markdown
 
 ---
 
 # 📅 Project Status
 
-### Week 1 — Completed
+**Current Phase:** 🟡 In Progress
 
-**Focus:**
-UX Research → Information Architecture → User Flow → Low-Fidelity Wireframes
+### Week 1 — UX Research, Architecture & Wireframing
 
-### Upcoming
+**Status:** Not Started / In Progress
 
-Future phases may include:
-
-* High-Fidelity UI Design
-* Design System
-* Interactive Prototype
-* Usability Testing
-* Vendor Dashboard
-* Responsive Design
-* Developer Handoff
+The team will update this README as each deliverable is completed.
 
 ---
 
-## 👥 Team Contribution
+# 👥 Team Contributions
 
-This project is collaboratively designed and documented by:
+### Dolly
 
-Vishwa • Shri • Dolly • Pankaj
+**Focus:** Shopper UX Research & Shopper Persona
 
-Each team member contributes to research, UX structure, documentation, design, review, and iteration throughout the project.
+### Vishwa
+
+**Focus:** Vendor UX Research & Vendor Persona
+
+### Shri
+
+**Focus:** Information Architecture & Core User Flow
+
+### Pankaj
+
+**Focus:** Low-Fidelity Wireframes
+
+All members will collaborate on reviewing and refining the work.
+
+---
+
+## 🔗 Project Links
+
+* **Figma:** *To be added*
+* **Documentation:** *To be added*
+* **Prototype:** *To be added*
+
+---
+
+## 📌 Note
+
+This repository contains the ongoing UX/UI design work for the **Retail & E-commerce Multi-Vendor Marketplace App**.
+
+The documentation and design artifacts will be updated throughout the project as the team progresses through each phase.
+
