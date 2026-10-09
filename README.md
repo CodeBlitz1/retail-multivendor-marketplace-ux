@@ -78,34 +78,34 @@ This flow will be explored and refined during the UX process.
 
 # 📋 Week 1 Scope
 
-### UX Research
+### UX Research - Completed 
 
-* [ ] Shopper Persona
-* [ ] Vendor Persona
-* [ ] User needs
-* [ ] Pain points
-* [ ] Goals
-* [ ] Initial research findings
+ Shopper Persona
+ Vendor Persona   
+ User needs
+ Pain points
+ Goals
+ Initial research findings
 
-### Information Architecture
+### Information Architecture - Completed
 
-* [ ] Navigation hierarchy
-* [ ] Content structure
-* [ ] Marketplace categories
-* [ ] Core user flow
+Navigation hierarchy
+Content structure
+Marketplace categories
+Core user flow
 
 ### Wireframing
 
-* [ ] Home Page
-* [ ] Category / Search Page
-* [ ] Product Detail Page
-* [ ] Cart Page
+Home Page
+Category / Search Page
+Product Detail Page
+Cart Page
 
 ### Documentation
 
-* [ ] UX Markdown documentation
-* [ ] Figma file
-* [ ] Figma version: `[Week 1] UX & Wireframes`
+UX Markdown documentation
+Figma file
+Figma version: `[Week 1] UX & Wireframes`
 
 ---
 
@@ -191,14 +191,6 @@ Link: https://www.figma.com/board/erAmhwLawxRCDPtujUlWlU/IA---UF?node-id=0-1&t=8
 **Focus:** Low-Fidelity Wireframes
 
 All members will collaborate on reviewing and refining the work.
-
----
-
-## 🔗 Project Links
-
-* **Figma:** *To be added*
-* **Documentation:** *To be added*
-* **Prototype:** *To be added*
 
 ---
 
