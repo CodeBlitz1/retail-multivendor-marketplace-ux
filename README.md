@@ -174,10 +174,12 @@ The team will update this README as each deliverable is completed.
 ### Dolly
 
 **Focus:** Shopper UX Research & Shopper Persona
+Link: https://www.figma.com/board/2O5E3UJPjDJqsehTNzIDxy/Untitled?node-id=0-1&t=kv2mkC7NJM8Sr1bR-1
 
 ### Vishwa
 
 **Focus:** Vendor UX Research & Vendor Persona
+Link: https://www.figma.com/board/Xk1MjkYwOQ22HGFYusa2JW/Vendor-Persona-%E2%80%94-Multi-Vendor-Marketplace?node-id=0-1&t=RMd2eaellyra5LUb-1
 
 ### Shri
 
