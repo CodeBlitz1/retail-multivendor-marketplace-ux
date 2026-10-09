@@ -182,6 +182,7 @@ The team will update this README as each deliverable is completed.
 ### Shri
 
 **Focus:** Information Architecture & Core User Flow
+Link: https://www.figma.com/board/erAmhwLawxRCDPtujUlWlU/IA---UF?node-id=0-1&t=8LlRUGhbWwrdYhWN-1
 
 ### Pankaj
 
