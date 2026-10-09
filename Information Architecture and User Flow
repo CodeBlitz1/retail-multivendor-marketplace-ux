@@ -1,15 +1,12 @@
-✅ Week 1 Progress Update — IA & User Flow Completed
+## Information Architecture & User Flow Completed
 
-Completed the Information Architecture (IA) and core User Flow for our Retail & E-commerce Multi-Vendor Marketplace App.
+* Created the Information Architecture (IA) to define the app's navigation hierarchy and content structure.
+* Designed the core shopper journey: Home → Category/Search → Product Detail Page (PDP) → Cart.
+* Organized the navigation to support a simple and intuitive shopping experience.
+* Added UX documentation for the Week 1 deliverables.
 
-📌 Information Architecture: Structured the app's navigation hierarchy and content organization.
+LINK: https://www.figma.com/board/erAmhwLawxRCDPtujUlWlU/IA---UF?node-id=0-1
 
-🔄 User Flow: Mapped the shopper's journey from Home → Category/Search → Product Detail Page (PDP) → Cart.
+**Project:** Retail & E-commerce — Multi-Vendor Marketplace App
+**Status:** IA & User Flow Completed ✅
 
-Link: https://www.figma.com/board/erAmhwLawxRCDPtujUlWlU/IA---UF?node-id=0-1&t=8LlRUGhbWwrdYhWN-1
-
-🎯Next Step: Proceeding with low-fidelity wireframes and the remaining Week 1 deliverables.
-
-Team: Dolly | Vishwa | Shri | Pankaj
-
-#UIUXDesign #UXDesign #InformationArchitecture #UserFlow #Figma #GitHub
