@@ -1,6 +1,6 @@
 ### User personas 
 
-1) Vendor persona by Vishwa
+1) Vendor persona by Vishwa 
 
 <img width="951" height="544" alt="Screenshot 2026-10-10 201848" src="https://github.com/user-attachments/assets/ed528630-7a48-4949-be9a-71b13073f1c8" />
 
