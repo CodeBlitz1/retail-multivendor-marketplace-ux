@@ -158,7 +158,7 @@ retail-multivendor-marketplace-ux/
 * UI design in later phases
 
 **Figma File:**
-*To be added*
+[UX & Wireframes](https://www.figma.com/design/LlhKEWGpkw90UIrcOWyYDe/UX---Wireframes?node-id=0-1&p=f&t=2pMP7kbHQqrIOCkM-0)
 
 ---
 
@@ -202,7 +202,7 @@ Link: https://www.figma.com/board/erAmhwLawxRCDPtujUlWlU/IA---UF?node-id=0-1&t=8
 ### Pankaj
 
 **Focus:** Low-Fidelity Wireframes
-Link: https://www.figma.com/design/LlhKEWGpkw9OUlrcOWyYDe/Untitled?node-id=0-1
+Link: https://www.figma.com/design/LlhKEWGpkw90UIrcOWyYDe/UX---Wireframes?node-id=0-1&p=f&t=2pMP7kbHQqrIOCkM-0
 
 All members will collaborate on reviewing and refining the work.
 
