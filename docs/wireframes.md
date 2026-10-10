@@ -4,7 +4,7 @@
 This document outlines the low-fidelity wireframes created for the Core Consumer Flow of the Multi-Vendor Marketplace App during Week 1. The designs focus on structure, layout, and content hierarchy without introducing colors or images, providing a solid foundation for the subsequent design system and high-fidelity UI phases.
 
 ## Core Consumer Flow
-
+ 
 ### 1. Home Page
 - **Header:** Fixed search bar to allow quick product and vendor discovery.
 - **Hero Banner:** Placeholder for promotional content (e.g., Autumn Sale).
