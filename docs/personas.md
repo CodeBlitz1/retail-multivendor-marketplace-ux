@@ -3,7 +3,7 @@
 ## 1. Shopper Persona
 
 **Created by:** Dolly
-
+ 
 ### Profile
 
 * Name: Khushi sharma
