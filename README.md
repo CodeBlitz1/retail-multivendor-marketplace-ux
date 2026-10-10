@@ -104,14 +104,12 @@ Marketplace categories
 Core user flow
 
 
-### Wireframing
+### Wireframing - Completed
 
-Home Page
-Category / Search Page
-
-Product Detail Page
-
-Cart Page
+- [x] Home Page
+- [x] Category / Search Page
+- [x] Product Detail Page
+- [x] Cart Page
 
 
 ### Documentation
@@ -178,7 +176,7 @@ retail-multivendor-marketplace-ux/
 
 ### Week 1 — UX Research, Architecture & Wireframing
 
-**Status:** Not Started / In Progress
+**Status:** Completed
 
 The team will update this README as each deliverable is completed.
 
@@ -204,6 +202,7 @@ Link: https://www.figma.com/board/erAmhwLawxRCDPtujUlWlU/IA---UF?node-id=0-1&t=8
 ### Pankaj
 
 **Focus:** Low-Fidelity Wireframes
+Link: https://www.figma.com/design/LlhKEWGpkw9OUlrcOWyYDe/Untitled?node-id=0-1
 
 All members will collaborate on reviewing and refining the work.
 
