@@ -6,7 +6,7 @@
 
 **Project Type:** UI/UX Design
 
-**Platform:** Mobile Application (iOS and Android)
+**Platform:** Mobile Application (iOS and Android) 
 
 ## 2. Problem Statement
 
