@@ -80,28 +80,20 @@ This flow will be explored and refined during the UX process.
 
 ### UX Research - Completed 
 
- Shopper Persona
- 
- Vendor Persona
- 
- User needs
- 
- Pain points
- 
- Goals
- 
- Initial research findings
+- [x] Shopper Persona
+- [x] Vendor Persona
+- [x] User needs
+- [x] Pain points
+- [x] Goals
+- [x] Initial research findings
  
 
 ### Information Architecture - Completed
 
-Navigation hierarchy
-
-Content structure
-
-Marketplace categories
-
-Core user flow
+- [x] Navigation hierarchy
+- [x] Content structure
+- [x] Marketplace categories
+- [x] Core user flow
 
 
 ### Wireframing - Completed
@@ -114,11 +106,10 @@ Core user flow
 
 ### Documentation
 
-UX Markdown documentation
+- [x] UX Markdown documentation
 
 Figma file
-
-Figma version: `[Week 1] UX & Wireframes`
+- [x] Figma version: `[Week 1] UX & Wireframes`
 
 ---
 
