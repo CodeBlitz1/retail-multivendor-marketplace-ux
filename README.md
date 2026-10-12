@@ -276,10 +276,7 @@ The team established the visual language of the Retail & E-commerce Multi-Vendor
 
 ## 🔗 Project Links
 
-- **Figma:** *Add your Figma file link here*
-- 
 - **Design System Page:** https://www.figma.com/design/fnxEN79wj4J91csi9dUhIm/Week-2--Design-system-and-component-library?node-id=0-1&t=tJiTKKTLwguCsbN1-1
-
 - **GitHub Repository:** *Current repository*
 - **Design Tokens:** `design-tokens/tokens.json`
 - **CSS Color Tokens:** `design-tokens/colors.css`
