@@ -1,0 +1,191 @@
+:root {
+  /* Tonal palettes */
+  --palette-primary-0: #000000;
+  --palette-primary-10: #21005D;
+  --palette-primary-20: #381E72;
+  --palette-primary-30: #4F378B;
+  --palette-primary-40: #6750A4;
+  --palette-primary-50: #7F67BE;
+  --palette-primary-60: #9A82DB;
+  --palette-primary-70: #B69DF8;
+  --palette-primary-80: #D0BCFF;
+  --palette-primary-90: #EADDFF;
+  --palette-primary-95: #F6EDFF;
+  --palette-primary-99: #FFFBFE;
+  --palette-primary-100: #FFFFFF;
+
+  --palette-secondary-0: #000000;
+  --palette-secondary-10: #1D192B;
+  --palette-secondary-20: #332D41;
+  --palette-secondary-30: #4A4458;
+  --palette-secondary-40: #625B71;
+  --palette-secondary-50: #7A7289;
+  --palette-secondary-60: #958DA5;
+  --palette-secondary-70: #B0A7C0;
+  --palette-secondary-80: #CCC2DC;
+  --palette-secondary-90: #E8DEF8;
+  --palette-secondary-95: #F6EDFF;
+  --palette-secondary-99: #FFFBFE;
+  --palette-secondary-100: #FFFFFF;
+
+  --palette-tertiary-0: #000000;
+  --palette-tertiary-10: #31111D;
+  --palette-tertiary-20: #492532;
+  --palette-tertiary-30: #633B48;
+  --palette-tertiary-40: #7D5260;
+  --palette-tertiary-50: #986977;
+  --palette-tertiary-60: #B58392;
+  --palette-tertiary-70: #D29DAC;
+  --palette-tertiary-80: #EFB8C8;
+  --palette-tertiary-90: #FFD8E4;
+  --palette-tertiary-95: #FFECF1;
+  --palette-tertiary-99: #FFFBFA;
+  --palette-tertiary-100: #FFFFFF;
+
+  --palette-error-0: #000000;
+  --palette-error-10: #410E0B;
+  --palette-error-20: #601410;
+  --palette-error-30: #8C1D18;
+  --palette-error-40: #B3261E;
+  --palette-error-50: #DC362E;
+  --palette-error-60: #E46962;
+  --palette-error-70: #EC928E;
+  --palette-error-80: #F2B8B5;
+  --palette-error-90: #F9DEDC;
+  --palette-error-95: #FCEEEE;
+  --palette-error-99: #FFFBF9;
+  --palette-error-100: #FFFFFF;
+
+  --palette-neutral-0: #000000;
+  --palette-neutral-10: #1C1B1F;
+  --palette-neutral-20: #313033;
+  --palette-neutral-30: #484649;
+  --palette-neutral-40: #605D62;
+  --palette-neutral-50: #787579;
+  --palette-neutral-60: #939094;
+  --palette-neutral-70: #AEAAAE;
+  --palette-neutral-80: #C9C5CA;
+  --palette-neutral-90: #E6E1E5;
+  --palette-neutral-95: #F4EFF4;
+  --palette-neutral-99: #FFFBFE;
+  --palette-neutral-100: #FFFFFF;
+
+  --palette-neutral-variant-0: #000000;
+  --palette-neutral-variant-10: #1D1A22;
+  --palette-neutral-variant-20: #322F37;
+  --palette-neutral-variant-30: #49454F;
+  --palette-neutral-variant-40: #605D66;
+  --palette-neutral-variant-50: #79747E;
+  --palette-neutral-variant-60: #938F99;
+  --palette-neutral-variant-70: #AEA9B4;
+  --palette-neutral-variant-80: #CAC4D0;
+  --palette-neutral-variant-90: #E7E0EC;
+  --palette-neutral-variant-95: #F5EEFA;
+  --palette-neutral-variant-99: #FFFBFE;
+  --palette-neutral-variant-100: #FFFFFF;
+
+  /* Light theme roles */
+  --color-primary: #6750A4;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #EADDFF;
+  --color-on-primary-container: #21005D;
+  --color-secondary: #625B71;
+  --color-on-secondary: #FFFFFF;
+  --color-secondary-container: #E8DEF8;
+  --color-on-secondary-container: #1D192B;
+  --color-tertiary: #7D5260;
+  --color-on-tertiary: #FFFFFF;
+  --color-tertiary-container: #FFD8E4;
+  --color-on-tertiary-container: #31111D;
+  --color-error: #B3261E;
+  --color-on-error: #FFFFFF;
+  --color-error-container: #F9DEDC;
+  --color-on-error-container: #410E0B;
+  --color-background: #FFFBFE;
+  --color-on-background: #1C1B1F;
+  --color-surface: #FFFBFE;
+  --color-on-surface: #1C1B1F;
+  --color-surface-variant: #E7E0EC;
+  --color-on-surface-variant: #49454F;
+  --color-outline: #79747E;
+  --color-outline-variant: #CAC4D0;
+  --color-surface-1: #F7F2F9;
+  --color-surface-2: #F3EDF7;
+  --color-surface-3: #EEE8F4;
+  --color-surface-4: #EDE6F3;
+  --color-surface-5: #EAE3F1;
+}
+
+/* Dark theme: manual switch */
+:root[data-theme="dark"] {
+  --color-primary: #D0BCFF;
+  --color-on-primary: #381E72;
+  --color-primary-container: #4F378B;
+  --color-on-primary-container: #EADDFF;
+  --color-secondary: #CCC2DC;
+  --color-on-secondary: #332D41;
+  --color-secondary-container: #4A4458;
+  --color-on-secondary-container: #E8DEF8;
+  --color-tertiary: #EFB8C8;
+  --color-on-tertiary: #492532;
+  --color-tertiary-container: #633B48;
+  --color-on-tertiary-container: #FFD8E4;
+  --color-error: #F2B8B5;
+  --color-on-error: #601410;
+  --color-error-container: #8C1D18;
+  --color-on-error-container: #F9DEDC;
+  --color-background: #1C1B1F;
+  --color-on-background: #E6E1E5;
+  --color-surface: #1C1B1F;
+  --color-on-surface: #E6E1E5;
+  --color-surface-variant: #49454F;
+  --color-on-surface-variant: #CAC4D0;
+  --color-outline: #938F99;
+  --color-outline-variant: #49454F;
+  --color-surface-1: #25232A;
+  --color-surface-2: #2A2831;
+  --color-surface-3: #302D38;
+  --color-surface-4: #322E3A;
+  --color-surface-5: #35323E;
+}
+
+/* Dark theme: follows device setting unless light is forced */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-primary: #D0BCFF;
+    --color-on-primary: #381E72;
+    --color-primary-container: #4F378B;
+    --color-on-primary-container: #EADDFF;
+    --color-secondary: #CCC2DC;
+    --color-on-secondary: #332D41;
+    --color-secondary-container: #4A4458;
+    --color-on-secondary-container: #E8DEF8;
+    --color-tertiary: #EFB8C8;
+    --color-on-tertiary: #492532;
+    --color-tertiary-container: #633B48;
+    --color-on-tertiary-container: #FFD8E4;
+    --color-error: #F2B8B5;
+    --color-on-error: #601410;
+    --color-error-container: #8C1D18;
+    --color-on-error-container: #F9DEDC;
+    --color-background: #1C1B1F;
+    --color-on-background: #E6E1E5;
+    --color-surface: #1C1B1F;
+    --color-on-surface: #E6E1E5;
+    --color-surface-variant: #49454F;
+    --color-on-surface-variant: #CAC4D0;
+    --color-outline: #938F99;
+    --color-outline-variant: #49454F;
+    --color-surface-1: #25232A;
+    --color-surface-2: #2A2831;
+    --color-surface-3: #302D38;
+    --color-surface-4: #322E3A;
+    --color-surface-5: #35323E;
+  }
+}
+
+/* Helpers */
+body {
+  background: var(--color-background);
+  color: var(--color-on-background);
+}
