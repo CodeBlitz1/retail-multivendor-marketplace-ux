@@ -1,6 +1,4 @@
-# 🛍️ Retail & E-commerce — Multi-Vendor Marketplace App
-
-A mobile-first **multi-vendor marketplace application** designed to provide customers with a seamless and trustworthy shopping experience while helping independent D2C vendors manage their products and inventory efficiently.
+# 🛍️ Retail & E-commerce - Multi-Vendor Marketplace App
 
 This project is currently in the **UX Research, Information Architecture, and Wireframing phase**.
 
@@ -163,11 +161,19 @@ retail-multivendor-marketplace-ux/
 
 # 📅 Project Status
 
-**Current Phase:** 🟡 completed 
+**Current Phase:** 🟡 In Progress — Week 3 Hi-Fi UI
 
 ### Week 1 — UX Research, Architecture & Wireframing
 
-**Status:** Completed
+**Status:** ✅ Completed
+
+### Week 2 — Design System & Component Library
+
+**Status:** ✅ Completed (Shripad — Material 3 system)
+
+### Week 3 — High-Fidelity UI
+
+**Status:** 🟡 In Progress — Vendor Dashboard completed (2026-10-23). Consumer App screens by Dolly.
 
 The team will update this README as each deliverable is completed.
 
@@ -308,3 +314,148 @@ This repository documents the design system and component library developed for 
 
 The design system is intended to support consistent, reusable, and scalable UI design throughout the project. Future updates will be documented as the application progresses through subsequent design phases.
 
+---
+
+# 🖼️ Week 3 — High-Fidelity UI (Vendor Dashboard)
+
+> **Author:** Pankaj Kumar Dhetarwal · **Date:** 2026-10-23
+>
+> Shripad's Week 2 Material 3 design system is the foundation for all hi-fi screens. Dolly owns the Consumer App (Cart & Checkout) screens.
+
+### Overview
+
+Week 3 converts the grayscale wireframes into pixel-perfect, high-fidelity screens. This section documents the **Vendor Dashboard** — two screens designed for independent D2C sellers to monitor sales performance and add new products to the marketplace.
+
+Both frames (402×882) live on the **05_High-Fidelity UI** page in Figma, inside the "Vendor Dashboard — Week 3" section. They use a lavender gradient background with two blurred blobs and are fully built with Auto-Layout.
+
+### Deliverables
+
+- [x] Vendor / Sales Analytics screen
+- [x] Vendor / Add Product screen
+- [x] 13 SVG icon components exported to `assets/icons/`
+- [x] Screen preview PNGs exported to `assets/screens/week-3/`
+- [x] Local components created in "Vendor Kit (Week 3)" on 04_Design System
+- [x] Design system audit: 0 unstyled paints, 0 detached instances, 100% text style-bound
+- [x] WCAG AA contrast verified on both screens
+
+### Screens
+
+| Screen | Purpose | Key Elements |
+|--------|---------|-------------|
+| Vendor / Sales Analytics | Monitor store performance at a glance | Store header with notification bell, M3 segmented period selector (7/30/90 days), revenue card with bar chart, KPI cards (Orders, Avg. Order Value), top products list, bottom nav |
+| Vendor / Add Product | List a new product on the marketplace | Back-button header, photo uploader with cover badge and 2-of-5 counter, details card with name/category chips/price/stock/description (78/300), publish switch, dual-action bar (Save Draft + Publish Product) |
+
+#### Sales Analytics
+
+![Vendor Sales Analytics](assets/screens/week-3/vendor-sales-analytics.png)
+
+**Screen details:**
+* **Header:** Store name + notification icon button (bell).
+* **Period selector:** M3 segmented button — 7 / 30 / 90 days.
+* **Revenue card:** $12,483 total, +12.4% vs previous period ($11,106). Mon–Sun bar chart with Saturday highlighted ($2,610). Daily values: 1,420 / 1,650 / 1,310 / 1,980 / 2,340 / 2,610 / 1,173.
+* **KPI cards:** Orders 342 (+8.1%) · Avg. Order Value $36.50 (−2.3%).
+* **Top products:** Platform Sandals — 42 sold, $3,822 · Classic Tote Bag — 36 sold, $3,096.
+* **Bottom nav:** Dashboard (active) · Products · Orders · Profile.
+
+> **Note:** All numbers are illustrative placeholder data.
+
+#### Add Product
+
+![Vendor Add Product](assets/screens/week-3/vendor-add-product.png)
+
+**Screen details:**
+* **Header:** Back button.
+* **Photo uploader:** Dashed "Add photo" tile, two photo tiles, a "Cover" badge, and a "2 of 5" counter.
+* **Details card:** Product name, category filter chips (Women, Men, Shoes, Beauty, Tech), price, stock quantity, description field with 78/300 counter.
+* **Publish switch:** "Publish immediately" toggle.
+* **Action bar:** "Save Draft" (outlined) · "Publish Product" (filled primary).
+
+### Design System Usage
+
+Built on Shripad's Week 2 **Material 3** system. The following M3 library components are instanced:
+
+* Segmented button
+* Icon button (tonal)
+* Button (filled, outlined, text)
+* Outlined text field
+* Filter chip
+* Switch
+
+**Color and typography:** Every color, text style, and elevation is an M3 library style. Typography follows the M3 Roboto scale; all text on both screens is bound to a text style.
+
+**Local paint styles** (copied from the reference design):
+
+| Style | Value |
+|-------|-------|
+| Hi-Fi/Background Gradient | `#EADDFF` → `#FFFFFF` |
+| Hi-Fi/Background Blob | `#EADDFF` → `#F9DEDC`, layer blur 100 |
+
+**Audit results (run 2026-10-23):** 0 unstyled paints · 0 detached instances · 100% text style-bound.
+
+### Accessibility (WCAG AA)
+
+* Every text/background pair was checked against WCAG 2.1 AA (4.5:1 for normal text).
+* **Lowest contrast ratios:** 5.0:1 on Sales Analytics · 6.3:1 on Add Product. **No failures.**
+* Trend chips use an arrow icon **and** a +/− sign — not color alone.
+* Chart bars are outlined so they do not rely solely on a pale fill.
+* Non-text contrast derives from M3 outline and primary tokens (not measured separately).
+
+### UX Rationale
+
+* **Segmented control** for quick period switching without navigating away.
+* **Best-day highlight** with a value tooltip on the bar chart to surface insights immediately.
+* **Three-card grouping** on the Add Product form (photos, details, visibility) to reduce cognitive load.
+* **"Publish Product"** is the single filled primary action; "Save Draft" is secondary (outlined) — clear visual hierarchy.
+* **Category filter chips** match the consumer app's categories for cross-consistency.
+
+### Components and Styles Created
+
+New local components live in the **"Vendor Kit (Week 3)"** frame on page 04_Design System:
+
+| Component | Variants / Properties |
+|-----------|----------------------|
+| Vendor/Stat Card | Trend = Up \| Down · Text properties: Label, Value, Delta |
+| Vendor/Product Row | Text properties: Name, Sold, Revenue |
+| Vendor/Nav Item | 8 variants: State (Active \| Inactive) × Tab (Dashboard \| Products \| Orders \| Profile) |
+| Vendor/Bottom Nav | Composed of Nav Item instances |
+| Icons/\<name\> | 13 icon components (see table below) |
+
+### Icon Library
+
+13 SVG icons exported from Figma — all 24×24, stroke-based, `viewBox="0 0 24 24"`.
+
+| Preview | Name |
+|---------|------|
+| <img src="assets/icons/back.svg" width="24" height="24"> | back |
+| <img src="assets/icons/bag.svg" width="24" height="24"> | bag |
+| <img src="assets/icons/bell.svg" width="24" height="24"> | bell |
+| <img src="assets/icons/box.svg" width="24" height="24"> | box |
+| <img src="assets/icons/check.svg" width="24" height="24"> | check |
+| <img src="assets/icons/dashboard.svg" width="24" height="24"> | dashboard |
+| <img src="assets/icons/image.svg" width="24" height="24"> | image |
+| <img src="assets/icons/image-plus.svg" width="24" height="24"> | image-plus |
+| <img src="assets/icons/plus.svg" width="24" height="24"> | plus |
+| <img src="assets/icons/store.svg" width="24" height="24"> | store |
+| <img src="assets/icons/trend-down.svg" width="24" height="24"> | trend-down |
+| <img src="assets/icons/trend-up.svg" width="24" height="24"> | trend-up |
+| <img src="assets/icons/user.svg" width="24" height="24"> | user |
+
+### Figma Links
+
+| Resource | Link |
+|----------|------|
+| Hi-Fi Screens (Vendor Dashboard) | [05_High-Fidelity UI → Vendor Dashboard](https://www.figma.com/design/LlhKEWGpkw90UIrcOWyYDe/UX---Wireframes?node-id=53-17632) |
+| Named Version: \[Week 3\] Hi-Fi Screens | [Version link](https://www.figma.com/design/LlhKEWGpkw90UIrcOWyYDe/UX---Wireframes?version-id=2413263113959368807&node-id=55-17677&t=a9x6MAOr1BOl9yqk-0) |
+
+### Next Steps (Week 4)
+
+* Link all screens on page **06_Prototype** with Smart Animate micro-interactions (e.g., nav tab transitions, chart tooltip appear).
+* Write a **developer handoff page** detailing the 8pt grid spacing, interaction behaviors, and component specs.
+
+---
+
+## 📌 Note
+
+This repository contains the ongoing UX/UI design work for the **Retail & E-commerce Multi-Vendor Marketplace App**.
+
+The documentation and design artifacts will be updated throughout the project as the team progresses through each phase.
