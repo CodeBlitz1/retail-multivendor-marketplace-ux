@@ -169,11 +169,11 @@ retail-multivendor-marketplace-ux/
 
 ### Week 2 — Design System & Component Library
 
-**Status:** ✅ Completed (Shripad — Material 3 system)
+**Status:** ✅ Completed
 
 ### Week 3 — High-Fidelity UI
 
-**Status:** 🟡 In Progress — Vendor Dashboard completed (2026-10-23). Consumer App screens by Dolly.
+**Status:** 🟡 In Progress 
 
 The team will update this README as each deliverable is completed.
 
