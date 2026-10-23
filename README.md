@@ -378,7 +378,7 @@ The team transformed grayscale wireframes into polished, high-fidelity screens f
 * Applied the established design system and reviewed accessibility requirements.
 * Coordinated the overall design review and documentation.
 
-### Pankaj
+### Shri
 
 **Focus:** UI Consistency & SVG Icons
 
