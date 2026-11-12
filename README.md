@@ -393,9 +393,7 @@ The team transformed grayscale wireframes into polished, high-fidelity screens f
 
 ## 🔗 Project Links
 
-* **Figma:** Coming soon *
-* **High-Fidelity UI Page:** `coming soon`
-* **Figma Version:** `coming soon`
+* **High-Fidelity UI Page:** https://www.figma.com/design/dRgL1F4MEsmrikUMeuLH9u/Week-3--High-Fidelity-User-Interface--UI-?node-id=0-1&t=BzJ7UFDQM6WCkzbQ-1
 * **GitHub Repository:** *current repository*
 * **Exported SVG Icons:** `coming soon`
 
