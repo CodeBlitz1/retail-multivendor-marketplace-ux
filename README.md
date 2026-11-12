@@ -395,7 +395,7 @@ The team transformed grayscale wireframes into polished, high-fidelity screens f
 
 * **High-Fidelity UI Page:** https://www.figma.com/design/dRgL1F4MEsmrikUMeuLH9u/Week-3--High-Fidelity-User-Interface--UI-?node-id=0-1&t=BzJ7UFDQM6WCkzbQ-1
 * **GitHub Repository:** *current repository*
-* **Exported SVG Icons:** `coming soon`
+* **Exported SVG Icons:** https://github.com/CodeBlitz1/retail-multivendor-marketplace-ux/tree/main/assets/icons
 
 ---
 
@@ -422,4 +422,47 @@ Applying the design system to the wireframes created a consistent and polished i
 This repository documents the high-fidelity UI design work for the Retail & E-commerce Multi-Vendor Marketplace App.
 
 The completed screens provide the visual foundation for future prototyping, usability testing, and further design refinements.
+
+
+
+
+## Week 4: Interactive Prototyping & Developer Handoff
+
+**Status:** Completed
+
+### Overview
+In Week 4, we connected our high-fidelity UI screens in Figma to create an interactive prototype for the Multi-Vendor Marketplace App. We also prepared a Developer Handoff page containing essential design specifications to support the development process.
+
+### Tasks Completed
+- Created the `06_Prototype` page in Figma.
+- Connected Consumer App screens to demonstrate the shopping journey.
+- Connected Vendor Dashboard screens to demonstrate vendor interactions.
+- Added clickable buttons, icons, and navigation elements.
+- Implemented micro-interactions using Smart Animate, including the product favourite heart animation.
+- Created the `07_Developer Handoff` page.
+- Documented the 8pt grid spacing system.
+- Documented typography, color styles, and reusable UI components.
+- Added interaction behaviour specifications for developers.
+- Documented asset export guidelines for SVG icons and other design assets.
+
+### Deliverables
+- Interactive Consumer App prototype.
+- Interactive Vendor Dashboard prototype.
+- Micro-interactions and screen transitions.
+- Figma page: `06_Prototype`.
+- Figma page: `07_Developer Handoff`.
+- Developer specifications and asset guidelines.
+
+### Tools Used
+- Figma – Interactive prototyping and developer handoff.
+- GitHub – Project documentation and version control.
+
+### Outcome
+Successfully transformed static high-fidelity screens into an interactive prototype and documented the design specifications required for developer implementation.
+
+### Team Contributions
+- **Dolly:** Consumer App prototype – Cart & Checkout interactions.
+- **Vishwa:** Consumer App prototype – Home & Search interactions.
+- **Shri:** UI consistency review, interaction testing and asset organization.
+- **Pankaj:** Vendor Dashboard prototype, Developer Handoff documentation and coordination.
 
